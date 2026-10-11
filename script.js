@@ -47,7 +47,7 @@ document.getElementById("enquiry-form").addEventListener("submit", event => {
     `Quantity / size: ${form.get("quantity") || "Not specified"}`,
     `Extra details: ${form.get("message") || "None"}`
   ];
-  if (WHATSAPP_NUMBER === "910000000000") {
+  if (WHATSAPP_NUMBER === "916369349396") {
     document.getElementById("form-status").textContent =
       "Demo setup: please replace the sample WhatsApp number in script.js with your real number before using this form.";
   }
